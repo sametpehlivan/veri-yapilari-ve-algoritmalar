@@ -2,27 +2,28 @@
 
 ##  [22 27 16 2 18 6] ---> Insertion Sort 
 
-### Soru-1 Verilen dizinin Insertion Sort türüne göre aşamaları
+### Soru-1 Verilen dizinin Insertion Sort'e göre aşamaları
 
 
 
 ***Bu sayıları sıralamaya ilk sayıdan başlıyoruz 22. | işareti dizinin o indexe kadar sıralandını gösteriyor***
 
+-- İlk iterasyonda elimizde sadece 22 sayısı mevcut olduğundan  22 sayısını sırladı. Pass aşaması diyebiliriz.
 **[22 | 27 16 2 18 6]**  
-İlk kontrolde elimizde sadece 22 sayısı mevcut olduğundan  22 sayısını sırladı. Pass aşaması diyebiliriz.
 
+-- İkinci iterasyonda 27 sayısı kendinden önceki index ile kontrol ediliyor eğer küçükse yer değiştiriyor. Küçük olmadığı için bir değişiklik olmadı ve iterasyon tamamlandı.
 **[22  27 | 16 2 18 6]**  
-
-
+ 
+-- Üçüncü iterasyonda 16 sayısı kendinden önceki index ile kontrol ediliyor eğer küçükse yer değiştiriyor. Kendinden önceki indexlerden küçük olduğu için önce 27 daha sonra 22 ile yer değiştiriyor. 
 **[16 22  27 | 2 18 6]** 
 
-
+-- Dördüncü iterasyonda 2 sayısı kendinden önceki index ile kontrol ediliyor eğer küçükse yer değiştiriyor. Kendinden önceki indexlerden küçük olduğu için önce 27,22 daha sonra 16 ile yer değiştiriyor. 
 **[2 16 22  27 | 18 6]** 
 
-
+-- Beşinci iterasyonda 18 sayısı kendinden önceki index ile kontrol ediliyor eğer küçükse yer değiştiriyor. Kendinden önceki indexlerden küçük olduğu için önce 27 daha sonra 22 ile yer değiştiriyor.
 **[2 16 18 22  27 | 6]** 
 
-
+-- Altıncı iterasyonda  18 sayısı kendinden önceki index ile kontrol ediliyor eğer küçükse yer değiştiriyor. Kendinden önceki indexlerden küçük olduğu için önce 27,22,18 daha sonra 16 ile yer değiştiriyor.
 **[2  6 16 18 22  27 ]** 
 
 
