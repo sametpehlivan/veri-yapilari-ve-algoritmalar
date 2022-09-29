@@ -8,7 +8,7 @@
 
 ***Bu sayıları sıralamaya ilk sayıdan başlıyoruz 22. | işareti dizinin o indexe kadar sıralandını gösteriyor***
 
--- İlk iterasyonda elimizde sadece 22 sayısı mevcut olduğundan  22 sayısını sırladı. Pass aşaması diyebiliriz.
+- İlk iterasyonda elimizde sadece 22 sayısı mevcut olduğundan  22 sayısını sırladı. Pass aşaması diyebiliriz.
 **[22 | 27 16 2 18 6]**  
 
 - İkinci iterasyonda 27 sayısı kendinden önceki index ile kontrol ediliyor eğer küçükse yer değiştiriyor. Küçük olmadığı için bir değişiklik olmadı ve iterasyon tamamlandı.
