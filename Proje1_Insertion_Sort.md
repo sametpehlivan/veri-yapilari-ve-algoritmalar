@@ -2,10 +2,11 @@
 
 ##  [22 27 16 2 18 6] ---> Insertion Sort 
 
-### Bu sayıları sıralamaya ilk sayıdan başlıyoruz 22.
-#### Soru-1 Verilen dizinin Insertion Sort türüne göre aşamaları
+### Soru-1 Verilen dizinin Insertion Sort türüne göre aşamaları
 
-***| işareti dizinin o indexe kadar sıralandını gösteriyor**
+
+
+*** Bu sayıları sıralamaya ilk sayıdan başlıyoruz 22. | işareti dizinin o indexe kadar sıralandını gösteriyor ***
 
 **[22 | 27 16 2 18 6]**  
 İlk kontrolde elimizde sadece 22 sayısı mevcut olduğundan  22 sayısını sırladı. Pass aşaması diyebiliriz.
